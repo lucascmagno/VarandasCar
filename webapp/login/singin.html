@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <script defer src="../scripts/valida.js"></script>
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/PedroMends30/img/main/favicon.svg" type="image/x-icon">
+    <title>Login | Varanda's Autopeças</title>
+</head>
+<body class="body-login">
+    <div class="imglogin hiddem-pocket">
+        <img src="https://raw.githubusercontent.com/PedroMends30/img/main/Supra.png" alt="">
+    </div>
+    <form action="jsp/logar.jsp" method="post">
+        <div class="singin">
+            <div class="header-form">
+                <h3>Entrar</h3>
+                <h2>Faça login com seu email e senha</h2>
+            </div>
+            <label for="#emailin">
+                Seu Email
+                <input type="email" name="email" required placeholder="Digite seu email" id="emailin" autocomplete="off">
+            </label>
+            <label for="#senhain" class="senha">
+                Senha
+                <input type="password" name="senha" required placeholder="Digite sua senha" id="senhain" autocomplete="off">
+            </label>
+            <input type="submit" value="Entrar">
+            <a href="singup.html">Crie uma Conta</a>
+        </div>
+    </form>
+    <a href="../index.html" class="close-login"><img src="https://raw.githubusercontent.com/PedroMends30/img/main/Close.svg" alt=""></a>
+</body>
+</html>
